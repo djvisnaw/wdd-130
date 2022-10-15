@@ -1,8 +1,15 @@
-#banner {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 body {
     margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.banner{
+    width: 100%;
+}
+
+.bubbleimages{
+    border-radius: 50%;
+    width: 300px;
+
 }
