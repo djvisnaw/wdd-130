@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #06A77D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+nav a {
+    text-align: center;
+    color: #052F5F;
+    text-decoration: none;
+    padding: 80px;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #B3F2DD;
+    color: #D5C67A;
+}
+
