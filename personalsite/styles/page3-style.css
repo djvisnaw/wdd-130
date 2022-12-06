@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #06A77D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+nav a {
+    text-align: center;
+    color: #052F5F;
+    text-decoration: none;
+    padding: 80px;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #B3F2DD;
+    color: #D5C67A;
+}
+
+.logo {
+    height: 100%;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 100px 0px 100px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#page3-image1 {
+    grid-column: 1/2;
+    grid-row:2/4;
+    min-width: 200px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+pre:nth-of-type(1) {
+    grid-column: 2/3;
+    grid-row: 1;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+pre:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+pre:nth-of-type(3) {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#page3-image2 {
+    grid-column: 3/4;
+    grid-row: 4/7;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+pre:nth-of-type(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+pre:nth-of-type(5) {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+footer {
+    background-color: #06A77D;
+    color: #052F5F;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #052F5F;
+    text-decoration: none;
+    padding: 20px;
+}
+
+footer a:hover {
+    color: #052F5F;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
