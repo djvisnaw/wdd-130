@@ -69,7 +69,7 @@ pre:nth-of-type(3) {
 
 #page3-image2 {
     grid-column: 3/4;
-    grid-row: 4/7;
+    grid-row: 4/6;
     min-width: 200px;
     max-width: 400px;
 }
